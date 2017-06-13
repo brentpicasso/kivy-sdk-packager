@@ -27,3 +27,12 @@ This approach works starting from Kivy 1.9, with SDL2 and GStreamer in mind.
 Anything else is untested.
 
 Buildozer uses this repository for its OS X packaging process.
+
+Dependencies required for creating a bundle:
+    - SDL2
+    - SDL2_image
+    - SDL2_ttf
+    - SDL2_mixer
+    - GStreamer (distributable package)
+    - GStreamer (devel)
+    - virtualenv
